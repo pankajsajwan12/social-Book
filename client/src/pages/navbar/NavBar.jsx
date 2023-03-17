@@ -70,7 +70,7 @@ const NavBar = () => {
         {/* --------------- DESKTOP NAVBAR ---------------------- */}
         {
           isDestopScreens ? (
-          <DisplayFlex gap="4rem">
+          <DisplayFlex gap="3rem">
             <IconButton onClick={() => dispatch(setMode())}>
              {
               theme.palette.mode === "light" ? (
