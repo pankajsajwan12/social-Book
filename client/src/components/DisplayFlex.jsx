@@ -4,7 +4,7 @@ import { styled } from '@mui/system';
 
 const DisplayFlex = styled(Box)({
     display : "flex",
-    justifyContent : "center",
+    justifyContent : "space-between",
     alignItems : "center"
 })
 export default DisplayFlex
